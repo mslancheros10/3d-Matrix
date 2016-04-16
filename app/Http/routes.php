@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('matrix', 'MatrixController@show');
+Route::post('matrix', 'MatrixController@uploadFile');
